@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальная школа</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-header">
+            <h1>ЛЯ</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Направления</a>
+                    </li>
+                    <li>
+                        <a href="#">Преподователи</a>
+                    </li>
+                    <li>
+                        <a href="#">Поступающим</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="auth_container">
+                <button>Зарегестрироваться</button>
+                <button>Войти</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="welcome">
+        <div class="welcome-container">
+            <div class="left-container">
+                <h1>Детская школа искусств № 1</h1>
+                <p>Первая ступень в развитии творческих способностей детей средствами музыкального образования.</p>
+                <button>Записаться на занятие</button>
+            </div>
+            <div class="right-container">
+                <div class="welcome-image">
+                    <img src="./images/piano.png" alt="piano">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <div class="courses-container">
+            <h1>Направления</h1>
+            <div class="courses-content">
+                <div class="single-item">
+                    <div class="image-item">
+                        <div class="image-container">
+                            <img src="./images/sk3.png" alt="skripka">
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <h2>Скрипка</h2>
+                        <p>Возраст обучающегося: 6 - 18 лет</p>
+                    </div>
+                </div>
+
+                <div class="single-item">
+                    <div class="image-item">
+                        <div class="image-container">
+                            <img src="./images/gitara.png" alt="skripka">
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <h2>Гитара</h2>
+                        <p>Возраст обучающегося: 6 - 18 лет</p>
+                    </div>
+                </div>
+
+                <div class="single-item">
+                    <div class="image-item">
+                        <div class="image-container">
+                            <img src="./images/girl.png" alt="skripka">
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <h2>Академический вокал</h2>
+                        <p>Возраст обучающегося: 6 - 18 лет</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="stats-container">
+            <h1>Достижения</h1>
+            <div class="stats-content">
+                <div class="stats-left">
+                    <img src="./images/golos.png" alt="golos">
+                </div>
+                <div class="stats-right">
+                    <p>Наши ученики уже стали участниками известных телевизионных и музыкальных проектов, таких как
+                        "Голос", "Один в один", "Московская весна acapella"
+                        и других проектов. В нашей школе преподают профессиональные педагоги со стажем, которые
+                        применяют индивидуальный подход в обучении, а помимо
+                        обучения у педагогов в России, наши ученики имеют уникальную возможность проходить мастер-классы
+                        по вокалу и игре на инструментах в музыкальной
+                        академии у наших друзей-партнеров в Италии.
+                    </p>
+                    <button>Показать еще</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="teachers">
+        <h1>Преподаватели</h1>
+        <div class="tachers-container">
+            <p>У нас преподают профессиональные педагоги со стажем, которые применяют индивидуальный подход в обучении.
+                С детьми работает 94 преподавателя и концертмейстера, в их числе заслуженные деятели искусств и
+                работники культуры РФ.
+            </p>
+            <button>Показать всех</button>
+        </div>
+    </section>
+
+    <section class="history">
+        <h1>История школы</h1>
+        <div class="history-container">
+            <div class="history-left">
+                <img src="./images/history.png" alt="history">
+            </div>
+            <div class="history-right">
+                <p>Школа была открыта
+                    в 1956 году и на сегодня является коллективным членом Московского музыкального общества и ассоциированным членом ЮНЕСКО. 
+                    С детьми работает 94 преподавателя и концертмейстера, в их числе заслуженные деятели искусств и работники культуры РФ. С основания школы каждый 
+                    год у нас выпускались минимум 200 учеников в год и на данный момент  в наших стенах обучаются 968 студентов, из которых 348 обучаются на 
+                    бюджетной основе.
+                </p>
+                <button>Подробнее</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="students">
+        <h1>Поступающим</h1>
+        <div class="students-container">
+            <div class="students-left">
+                <img src="./images/chel.png" alt="chel">
+            </div>
+            <div class="students-right">
+                <h2>Бесплатный урок</h2>
+                <form action="get">
+                    <label for="name">
+                        <input type="text" id="name" name="name" required placeholder="Имя">
+                    </label>
+                    <label for="phone">
+                        <input type="tel" id="phone" name="phone" required placeholder="Телефон">
+                    </label>
+                    <label for="email">
+                        <input type="email" id="email" name="email" required placeholder="Почта">
+                    </label>
+                    <input type="submit" value="Записаться">
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="left-side">
+                <h2>О нас</h2>
+                <a href="#">Преподователи</a>
+                <a href="#">Преподователи</a>
+                <a href="#">Преподователи</a>
+            </div>
+            <div class="center-side">
+                <h2>Контакты</h2>
+                <p>Консультация: 8 (800)-55535-35</p>
+                <p>Консультация: 8 (800)-55535-35</p>
+                <p>Консультация: 8 (800)-55535-35</p>
+            </div>
+            <div class="right-side">
+                <h2>Мы в соц сетях</h2>
+                <div class="footer-image">
+                    <a href="#"><img src="./images/youtube.png" alt="youtube"></a>
+                    <a href="#"><img src="./images/twitt.png" alt="youtube"></a>
+                    <a href="#"><img src="./images/tg.png" alt="youtube"></a>
+                </div>
+            </div>
+        </div>
+        <p class="copy">&copy; 2023 Музыкальная Школа. Все права защищены.</p>
+    </footer>
+</body>
+
+</html>
