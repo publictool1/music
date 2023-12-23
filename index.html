@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Музыкальная школа</title>
+    <link rel="icon" href="./images/icon1.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -15,18 +16,24 @@
             <nav>
                 <ul>
                     <li>
-                        <a href="#">Направления</a>
+                        <a href="#courses">Направления</a>
                     </li>
                     <li>
-                        <a href="#">Преподователи</a>
+                        <a href="#stats">Достижения</a>
                     </li>
                     <li>
-                        <a href="#">Поступающим</a>
+                        <a href="#teachers">Преподаватели</a>
+                    </li>
+                    <li>
+                        <a href="#history">История школы</a>
+                    </li>
+                    <li>
+                        <a href="#students">Поступающим</a>
                     </li>
                 </ul>
             </nav>
             <div class="auth_container">
-                <button>Зарегестрироваться</button>
+                <button>Зарегистрироваться</button>
                 <button>Войти</button>
             </div>
         </div>
@@ -37,7 +44,7 @@
             <div class="left-container">
                 <h1>Детская школа искусств № 1</h1>
                 <p>Первая ступень в развитии творческих способностей детей средствами музыкального образования.</p>
-                <button>Записаться на занятие</button>
+                <a href="#students">Записаться на занятие</a>
             </div>
             <div class="right-container">
                 <div class="welcome-image">
@@ -47,7 +54,7 @@
         </div>
     </section>
 
-    <section class="courses">
+    <section id="courses" class="courses">
         <div class="courses-container">
             <h1>Направления</h1>
             <div class="courses-content">
@@ -86,12 +93,11 @@
                         <p>Возраст обучающегося: 6 - 18 лет</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <section class="stats">
+    <section id="stats" class="stats">
         <div class="stats-container">
             <h1>Достижения</h1>
             <div class="stats-content">
@@ -107,24 +113,24 @@
                         по вокалу и игре на инструментах в музыкальной
                         академии у наших друзей-партнеров в Италии.
                     </p>
-                    <button>Показать еще</button>
+                    <a href="./stats.html">Показать еще</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="teachers">
+    <section id="teachers" class="teachers">
         <h1>Преподаватели</h1>
         <div class="tachers-container">
             <p>У нас преподают профессиональные педагоги со стажем, которые применяют индивидуальный подход в обучении.
                 С детьми работает 94 преподавателя и концертмейстера, в их числе заслуженные деятели искусств и
                 работники культуры РФ.
             </p>
-            <button>Показать всех</button>
+            <a href="./teachers.html">Показать всех</a>
         </div>
     </section>
 
-    <section class="history">
+    <section id="history" class="history">
         <h1>История школы</h1>
         <div class="history-container">
             <div class="history-left">
@@ -137,12 +143,12 @@
                     год у нас выпускались минимум 200 учеников в год и на данный момент  в наших стенах обучаются 968 студентов, из которых 348 обучаются на 
                     бюджетной основе.
                 </p>
-                <button>Подробнее</button>
+                <a href="./history.html">Подробнее</a>
             </div>
         </div>
     </section>
 
-    <section class="students">
+    <section id="students" class="students">
         <h1>Поступающим</h1>
         <div class="students-container">
             <div class="students-left">
@@ -171,9 +177,23 @@
         <div class="container">
             <div class="left-side">
                 <h2>О нас</h2>
-                <a href="#">Преподователи</a>
-                <a href="#">Преподователи</a>
-                <a href="#">Преподователи</a>
+                <ul>
+                    <li>
+                        <a href="./courses.html">Направления</a>
+                    </li>
+                    <li>
+                        <a href="./stats.html">Достижения</a>
+                    </li>
+                    <li>
+                        <a href="./teachers.html">Преподаватели</a>
+                    </li>
+                    <li>
+                        <a href="./history.html">История школы</a>
+                    </li>
+                    <li>
+                        <a href="#students">Поступающим</a>
+                    </li>
+                </ul>
             </div>
             <div class="center-side">
                 <h2>Контакты</h2>
