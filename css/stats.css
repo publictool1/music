@@ -8,41 +8,11 @@
   margin: 150px 0;
 }
 .achievements h1 {
-  font-size: 2em;
   margin-bottom: 20px;
-  color: #6E1E21;
   text-align: center;
 }
-.achievements .achievements-container {
-  margin: 0 auto;
-  text-align: center;
+.achievements-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-.achievements .achievements-container ul {
-  list-style: none;
-}
-.achievements .achievements-container ul li {
-  margin-bottom: 15px;
-  background-color: #F1EDE6;
-  padding: 15px;
-  border-radius: 10px;
-}
-.achievements .achievements-container ul li p {
-  font-size: 1.2em;
-  color: #6E1E21;
-}
-.achievements .achievements-container .left-side {
-  display: flex;
-  flex-direction: column;
-}
-.achievements .achievements-container .right-side {
-  width: 350px;
-  height: auto;
-}
-.achievements .achievements-container .right-side img {
-  width: 100%;
-  height: auto;
-  border-radius: 10px;
-}/*# sourceMappingURL=stats.css.map */
